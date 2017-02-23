@@ -1,0 +1,95 @@
+header{
+	
+	}
+#container{
+	width: auto;
+	/*float: right;*/
+	background-color: white;
+}
+#apc{
+	float: right;
+}
+#chase{
+	background-color: teal;
+	height: 75px;
+	width: 250px;
+	text-align: center;
+	line-height: 70px;
+	margin-left: 50px;
+	margin-top: 50px;
+	color: white;
+	font-size: 28px;
+	font-family: sans-serif;
+	/*float: left;*/
+}
+#about{
+	color: grey;
+	font-size: 18px;
+	text-align: center;
+	/*float: right;*/
+}
+#portfolio{
+	color: grey;
+	font-size: 18px;
+	/*float: right;*/
+}
+#contact{
+	color: grey;
+	font-size: 18px;
+	/*float: right;*/
+}
+body{
+	background-color: lightgrey;
+}
+#container2{
+	clear: both;
+	background-color: white;
+	margin-left: 50px;
+	width: 500px;
+	height: 450px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+	/*float: left;*/
+}
+#aboutme{
+	font-size: 32px;
+	border-style: solid;
+    border-bottom: solid grey;
+}
+.connect{
+	clear: both;
+	float: right;
+	background-color: white;
+	height: 200px;
+	width: 400px;
+}
+#imageContainer{
+	height: 200px;
+	width: 225px;
+}
+#face{
+	width: 100%;
+	height: auto;
+}
+#para{
+	/*text-overflow: wrap;*/
+	font-size: 18px;
+	float: right;
+	text-overflow: wrap;
+
+}
+#strip{
+	background-color: teal;
+	width: auto;
+	height: 5px;
+}
+#footer{
+	background-color: darkgrey;
+	text-align: center;
+}
+h1{
+	font-size: 32px;
+}
