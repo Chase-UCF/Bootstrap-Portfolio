@@ -1,95 +1,145 @@
-header{
+
+#masthead{
 	
 	}
-#container{
+.container-fluid{
 	width: auto;
-	/*float: right;*/
 	background-color: white;
+	height: auto;
 }
-#apc{
-	float: right;
-}
-#chase{
+#logo{
 	background-color: teal;
-	height: 75px;
-	width: 250px;
 	text-align: center;
 	line-height: 70px;
-	margin-left: 50px;
-	margin-top: 50px;
 	color: white;
 	font-size: 28px;
 	font-family: sans-serif;
-	/*float: left;*/
-}
-#about{
-	color: grey;
+} 
+#navbar {
 	font-size: 18px;
+	font-family: sans-serif;
+	color: #999;
+  	font-weight: 400;
+}
+#about, #portfolio, #contact{
+	color: #999;
+	font-size: 18px;
+}
+
+#main-container{
+	background-color: white;
+	margin: 30px 30px 20px 40px;
+	color: #999;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+h1, h2{
 	text-align: center;
-	/*float: right;*/
+	color: teal;
+	font-family: sans-serif;
+	border-bottom: 3px solid #ddd;
+	margin-bottom: 20px;
 }
-#portfolio{
-	color: grey;
-	font-size: 18px;
-	/*float: right;*/
+
+.sidebar{
+	background-color: white;
+	margin: 40px 30px 0 50px;
+	width: 300px;
+	height: 450px;
+	padding: 10px 0;
 }
-#contact{
-	color: grey;
-	font-size: 18px;
-	/*float: right;*/
+footer {
+  padding: 30px 0;
+  color: #fff;
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  background: #666;
+  border-top: 8px solid #4aaaa5;
+}
+#abc{
+	margin:20px 20px 20px 20px;
+}
+
+
+/*portfolio*/
+
+.work {
+  position: relative;
+  width: 274px;
+  overflow: auto;
+  margin: 20px 0 25px;
+}
+
+.work:nth-child(even) {
+  margin-right: 40px;
+}
+
+.work img {
+  width: 100%;
+  border: 0 none;
+  opacity: .8;
+}
+
+.work h3 {
+  position: absolute;
+  bottom: 20px;
+  margin-bottom: 0;
+  padding: 15px;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  background: #4aaaa5;
+  border-bottom: 0;
+}
+
+.auth-image {
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+/*contact*/
+#contact-form ul {
+  margin-bottom: 20px;
+}
+
+#contact-form li {
+  margin-bottom: 10px;
+}
+
+label,
+input[type=text],
+input[type=email],
+textarea {
+  display: block;
+  width: 100%;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
+}
+
+input[type=submit] {
+  padding: 10px 30px;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
 }
 body{
 	background-color: lightgrey;
-}
-#container2{
-	clear: both;
-	background-color: white;
-	margin-left: 50px;
-	width: 500px;
-	height: 450px;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-	box-sizing: border-box;
-	/*float: left;*/
-}
-#aboutme{
-	font-size: 32px;
-	border-style: solid;
-    border-bottom: solid grey;
-}
-.connect{
-	clear: both;
-	float: right;
-	background-color: white;
-	height: 200px;
-	width: 400px;
-}
-#imageContainer{
-	height: 200px;
-	width: 225px;
-}
-#face{
-	width: 100%;
-	height: auto;
-}
-#para{
-	/*text-overflow: wrap;*/
-	font-size: 18px;
-	float: right;
-	text-overflow: wrap;
-
-}
-#strip{
-	background-color: teal;
-	width: auto;
-	height: 5px;
-}
-#footer{
-	background-color: darkgrey;
-	text-align: center;
-}
-h1{
-	font-size: 32px;
 }
